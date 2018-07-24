@@ -1,0 +1,9 @@
+{
+    ".souce.go": {
+        "css attribute": {
+            "prefix": "gsp",
+            "body": "gs.P(\"${1:key}\",\"${2:value}\"),",
+            "description": "Snippet for gs attribute"
+        }
+    }
+}
