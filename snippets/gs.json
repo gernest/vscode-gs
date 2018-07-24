@@ -4,6 +4,11 @@
             "prefix": "gsp",
             "body": "gs.P(\"${1:key}\",\"${2:value}\"),",
             "description": "Snippet for gs attribute"
+        },
+        "css selector": {
+            "prefix": "gss",
+            "body": "gs.S(\"${1:name}\",\n\t$0\n),",
+            "description": "Snippet for gs selector"
         }
     }
 }
