@@ -9,6 +9,16 @@
             "prefix": "gss",
             "body": "gs.S(\"${1:name}\",\n\t$0\n),",
             "description": "Snippet for gs selector"
+        },
+        "css keyframe": {
+            "prefix": "gsk",
+            "body": "gs.KeyFrame(\"${1:name}\",\n\t$0\n),",
+            "description": "Snippet for gs @keyframe"
+        },
+        "css conditional": {
+            "prefix": "gsc",
+            "body": "gs.Cond(\"${1:name}\",\n\t$0\n),",
+            "description": "Snippet for gs conditional"
         }
     }
 }
